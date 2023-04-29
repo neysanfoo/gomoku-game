@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <title>Gomoku</title>
+    </head>
+    <body>
+        <main>
+            <div class="game-mode-selection">
+                <h1 class="title">Select a game mode</h1>
+                <ul class="game-modes">
+                    <li id="offline" class="game-mode">
+                        <p>Two Players (Offline)</p>
+                    </li>
+                    <li id="online" class="game-mode">
+                        <p>Two Players (Online)</p>
+                    </li>
+                    <li id="computer" class="game-mode">
+                        <p>Against Computer</p>
+                    </li>
+                </ul>
+                <div class="game-description">
+                    <h2>What is Gomoku?</h2>
+                    <p>
+                        Gomoku, also known as Five in a Row, is a two-player
+                        strategy game played on a 15x15 board.
+                    </p>
+                    <h2>How to play</h2>
+                    <p>
+                        Gomoku is a strategy game played on a grid. The goal is
+                        to align five of your pieces horizontally, vertically,
+                        or diagonally before your opponent.
+                    </p>
+                    <h2>Strategy</h2>
+                    <p>
+                        As with many strategy games, the key to winning Gomoku
+                        is to balance your offensive and defensive moves. It's
+                        important to watch your opponent's moves and try to
+                        anticipate their next move, while also making sure to
+                        protect your own pieces.
+                    </p>
+                </div>
+            </div>
+            <div class="game-room hidden">
+                <div class="header">
+                    <h1 class="game-title">Gomoku</h1>
+                    <button class="back-to-home">Back to Home</button>
+                </div>
+                <div class="game-board"></div>
+            </div>
+        </main>
+        <script src="js/board.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
